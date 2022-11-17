@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authenticator", "Authenticator\Authenticator.csproj", "{621F33BF-324E-40FA-A6BD-DE76BFB2733C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3E982362-9755-419B-BABD-40C37F95C7AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{F166CE48-8AC1-42B2-8DBB-7A2D076DD807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{621F33BF-324E-40FA-A6BD-DE76BFB2733C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{621F33BF-324E-40FA-A6BD-DE76BFB2733C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{621F33BF-324E-40FA-A6BD-DE76BFB2733C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E982362-9755-419B-BABD-40C37F95C7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E982362-9755-419B-BABD-40C37F95C7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E982362-9755-419B-BABD-40C37F95C7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E982362-9755-419B-BABD-40C37F95C7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F166CE48-8AC1-42B2-8DBB-7A2D076DD807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F166CE48-8AC1-42B2-8DBB-7A2D076DD807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F166CE48-8AC1-42B2-8DBB-7A2D076DD807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F166CE48-8AC1-42B2-8DBB-7A2D076DD807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
