@@ -137,7 +137,6 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
