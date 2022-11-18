@@ -104,6 +104,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Зарегистрировать аккаунт";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -150,6 +151,7 @@
             this.Controls.Add(this.label1);
             this.Name = "RegistrationForm";
             this.Text = "RegistrationForm";
+            this.Load += new System.EventHandler(this.RegistrationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

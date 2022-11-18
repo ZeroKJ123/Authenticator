@@ -1,5 +1,4 @@
-﻿
-namespace Domain.Models
+﻿namespace Domain.Models
 {
     public  class User
     {
@@ -8,6 +7,5 @@ namespace Domain.Models
         public string Age { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-
     }
 }

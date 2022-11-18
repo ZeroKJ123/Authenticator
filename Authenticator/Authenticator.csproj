@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="Resources\BackGround.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{3e982362-9755-419b-babd-40c37f95c7af}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
