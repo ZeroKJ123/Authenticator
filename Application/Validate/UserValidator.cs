@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Validate
 {
-    internal class UserValidator
+    public class UserValidator
     {
         public List<string> Validate(User user)
         {
@@ -17,25 +17,21 @@ namespace Application.Validate
             {
                 errors.Add("Неккоректная фамилия");
             }
-            return errors;
             bool isNotCorrectFirstName = string.IsNullOrWhiteSpace(user.FirstName);
             if (isNotCorrectFirstName)
             {
                 errors.Add("Неккоректное имя");
             }
-            return errors;
             bool isNotCorrectAge = string.IsNullOrWhiteSpace(user.Age);
             if (isNotCorrectAge)
             {
                 errors.Add("Неккоректный возраст");
             }
-            return errors;
             bool isNotCorrectLogin = string.IsNullOrWhiteSpace(user.Login);
             if (isNotCorrectLogin)
             {
                 errors.Add("Неккоректный логин");
             }
-            return errors;
 
             bool isNotCorrectPassword = string.IsNullOrWhiteSpace(user.Password);
             if (isNotCorrectPassword)

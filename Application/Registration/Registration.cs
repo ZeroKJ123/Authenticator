@@ -9,11 +9,6 @@ namespace Application.Registration
 {
     internal class Registration
     {
-        public List<string> DataFiling(User register)
-        {
-            
-
-        }
 
     }
 }
