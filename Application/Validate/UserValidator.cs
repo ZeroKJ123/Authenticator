@@ -17,6 +17,7 @@ namespace Application.Validate
             {
                 errors.Add("Неккоректная фамилия");
             }
+            return errors;
             bool isNotCorrectFirstName = string.IsNullOrWhiteSpace(user.FirstName);
             if (isNotCorrectFirstName)
             {
