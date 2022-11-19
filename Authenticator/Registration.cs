@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Authenticator
 {
@@ -52,6 +53,12 @@ namespace Authenticator
                 }
 
                 MessageBox.Show(BigDick);
+            }
+            else
+            {
+                Form ifrm = new Authorization();
+                ifrm.Show();
+                this.Hide();
             }
         }
     }
