@@ -16,9 +16,6 @@ namespace Authenticator
 {
     public partial class Registration : Form
     {
-
-
-
         public Registration()
         {
             InitializeComponent();
@@ -29,7 +26,7 @@ namespace Authenticator
             Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=dQw4w9WgXcQ") { UseShellExecute = true });
         }
 
-        private void RegistrationBT_Click(object sender, EventArgs e)
+        public void RegistrationBT_Click(object sender, EventArgs e)
         {
             User user = new User();
 
@@ -56,10 +53,17 @@ namespace Authenticator
             }
             else
             {
+                PeopleInfo.UserInfo = user;
+
                 Form ifrm = new Authorization();
                 ifrm.Show();
                 this.Hide();
             }
         }
+    }
+
+    public static class PeopleInfo
+    {
+        public static User UserInfo = new User();
     }
 }

@@ -71,6 +71,7 @@
             // 
             this.PasswordAutTB.Location = new System.Drawing.Point(210, 268);
             this.PasswordAutTB.Name = "PasswordAutTB";
+            this.PasswordAutTB.PasswordChar = '*';
             this.PasswordAutTB.Size = new System.Drawing.Size(100, 23);
             this.PasswordAutTB.TabIndex = 13;
             // 
@@ -90,6 +91,7 @@
             this.LoginBT.TabIndex = 16;
             this.LoginBT.Text = "Войти";
             this.LoginBT.UseVisualStyleBackColor = true;
+            this.LoginBT.Click += new System.EventHandler(this.LoginBT_Click);
             // 
             // Authorization
             // 
